@@ -1,0 +1,58 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvSaludo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:text="Hola" />
+
+    <ImageView
+        android:id="@+id/imgTrivia"
+        android:layout_width="344dp"
+        android:layout_height="240dp"
+        android:src="@drawable/amigos" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Cómo se llaman los otros dos amigos incondicionales de Harry Potter?" />
+
+    <RadioGroup
+        android:id="@+id/rgRespuestas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton android:id="@+id/rbOpcion1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Luna Lovegood y Draco Malfoy" />
+
+        <RadioButton android:id="@+id/rbOpcion2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hermione Granger y Billy Weasley" />
+
+        <RadioButton android:id="@+id/rbOpcion3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hermione Granger y Ronald Weasley" />
+
+        <RadioButton android:id="@+id/rbOpcion4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tom Riddle y J.K. Rowling" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnEnviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enviar" />
+</LinearLayout>
